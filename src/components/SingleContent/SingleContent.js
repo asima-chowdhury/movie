@@ -1,4 +1,5 @@
 import React from 'react';
+import { img_300, unavailable } from '../../config/config';
 import './SingleContent.css';
 
 const SingleContent = (props) => {
@@ -6,7 +7,7 @@ const SingleContent = (props) => {
     // console.log(props);
     return (
         <div>
-            <h1>hi </h1>
+            <img src={ poster? `${img_300}/${poster}` : unavailable} alt={title} />
         </div>
     );
 };
