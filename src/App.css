@@ -10,3 +10,17 @@
     padding-top: 70px;
   }
 }
+.page-title{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: #fbc500;
+}
+@media (max-width: 1000px){
+  .page-title{
+    font-size: 6.4vw;
+  }
+}

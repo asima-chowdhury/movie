@@ -41,22 +41,22 @@ const SimpleBottomNavigation = () => {
       className={classes.root}
     >
       <BottomNavigationAction
-        style={{ color: "white" }}
+        style={{ color: "#fbc500" }}
         label="Trending"
         icon={<WhatshotIcon />}
       />
       <BottomNavigationAction
-        style={{ color: "white" }}
+        style={{ color: "#fbc500" }}
         label="Movies"
         icon={<MovieIcon />}
       />
       <BottomNavigationAction
-        style={{ color: "white" }}
+        style={{ color: "#fbc500" }}
         label="TV Series"
         icon={<TvIcon />}
       />
       <BottomNavigationAction
-        style={{ color: "white" }}
+        style={{ color: "#fbc500" }}
         label="Search"
         icon={<SearchIcon />}
       />
