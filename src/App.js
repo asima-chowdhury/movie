@@ -5,8 +5,7 @@ import SimpleBottomNavigation from './components/MainNav/MainNav';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Container from '@material-ui/core/Container';
 import Trending from './Pages/Trending/Trending';
