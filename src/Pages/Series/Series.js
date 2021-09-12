@@ -13,7 +13,7 @@ const Series = () => {
     const [genres, setGenres] = useState([]);
     const genreforURL = useGenres(selectedGenres);
 
-    const fetchMovies = async () => {
+    const fetchSeries = async () => {
         const { data } = await axios.get(`https://api.themoviedb.org/3/discover/tv?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${page}&with_genres=${genreforURL}`);
 
         // console.log(data);
@@ -22,13 +22,13 @@ const Series = () => {
     }
 
     useEffect(() => {
-        fetchMovies();
+        fetchSeries();
         // eslint-disable-next-line
     }, [page, genreforURL]);
 
     return (
         <div>
-            <span className="page-title">Series</span>
+            <span className="page-title">Discover Series</span>
             <Genres
                 type="tv"
                 selectedGenres={selectedGenres}
