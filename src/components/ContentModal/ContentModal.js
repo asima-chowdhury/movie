@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './ContentModal.css';
+import Carousel from '../Carousel/Carousel';
 
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
@@ -132,6 +133,7 @@ const ContentModal = ({ children, media_type, id }) => {
                                             {content.overview}
                                         </span>
                                         <div>
+                                            <Carousel media_type={media_type} id={id}></Carousel>
                                         </div>
 
                                         <Button
