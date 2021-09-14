@@ -18,3 +18,6 @@
 
 ## Project preview:
 ![Design preview of this project](src/images/preview.png)
+
+## 🔗 Live Site Link:
+https://movie-hub-2021.netlify.app/
