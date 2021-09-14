@@ -17,4 +17,4 @@
 * Netlify(Hosting)
 
 ## Project preview:
-![Design preview of this project](images/preview.png)
+![Design preview of this project](src/images/preview.png)
