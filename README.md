@@ -1,5 +1,4 @@
 # Movie Hub
----
 ## Features:
 * A Single Page Application(SPA) with a dynamic list of movie data loaded from the REST API
 * Shows trending movies on the homepage where pagination is available
@@ -16,3 +15,6 @@
 * React alice carousel
 * Material UI
 * Netlify(Hosting)
+
+## Project preview:
+![Design preview of this project](images/preview.png)
